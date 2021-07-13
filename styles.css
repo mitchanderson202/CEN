@@ -1,0 +1,242 @@
+/* body {
+    padding: 2%;
+} */
+
+.indexContainer {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.2fr 0.8fr 3fr 2fr;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "section";
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 5%;
+    /* padding-right: 5%; */
+ }
+
+ 
+#loginTab {
+    background-color: #5396CB;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8%;
+    margin: 2%;
+    margin-bottom: 0;
+}
+
+#logoImg {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+}
+
+#topNavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5396CB;
+    padding: 0.6%;
+    margin: 0.6em;
+    margin-bottom: 3%;
+    margin-top: 0;
+}
+
+.navItems {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+#homeNav {
+    color: red;
+}
+
+table {
+    /* display: flex; */
+    /* border: 1px solid black; */
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3%;
+    color: black;
+    /* background-color: lightblue; */
+    /* height: 50vh; */
+    box-sizing: border-box;
+}
+
+
+tr {
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+th {
+    font-size: 1.8em;
+    /* border: 1px solid black; */
+    margin: 0;    
+    width: 25%;
+    height: 7.5vh;
+    background: beige;
+}
+
+td {
+    /* border: 1px solid black; */
+    height: 16vh;
+    font-size: 0.8em;
+    padding: 0;
+    background: beige;
+}
+
+.bcgChange {
+    background: pink;    
+}
+
+
+.indexBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slideOne { 
+    border: 3px solid darkblue;
+    background: red;
+    border-radius: 50%;
+    padding: 0.5% 0.5%;
+}
+
+#slideTwo { 
+    border: 3px solid darkblue;
+    background: lightblue;
+    border-radius: 50%;
+    padding: 0.5% 0.5%;
+}
+
+#slideThree { 
+    border: 3px solid darkblue;
+    background: lightblue;
+    border-radius: 50%;
+    padding: 0.5% 0.5%;
+}
+
+#slideFour { 
+    border: 3px solid darkblue;
+    background: lightblue;
+    border-radius: 50%;
+    padding: 0.5% 0.5%;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.btnWrap {
+    display: grid;
+    justify-content: space-around;    
+    height: 6vh;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "button button"
+    "button button";
+    gap: 10%;
+}
+
+#comBtn {
+    background-color: lightblue;   
+    margin: 0 auto;
+    border: 2px solid blue;
+    font-weight: 600;
+    font-size: 1.2rem;  
+    height: 140px;
+    width: 180px; ;  
+    margin-bottom: 60px;
+}
+
+#venBtn {
+    background-color: lightblue;   
+    margin: 0 auto;
+    border: 2px solid blue;
+    font-weight: 600;
+    font-size: 1.2rem; 
+    height: 140px;
+    width: 180px;      
+}
+
+#sspBtn {
+    background-color: lightblue;   
+    margin: 0 auto;
+    border: 2px solid blue;
+    font-weight: 600;
+    font-size: 1.2rem; 
+    height: 140px;
+    width: 180px;  
+}
+
+#invBtn {
+    background-color: lightblue;   
+    margin: 0 auto;
+    border: 2px solid blue;
+    font-weight: 600;
+    font-size: 1.2rem; 
+    height: 140px;
+    width: 180px; 
+}
+
+#servicesMain {
+    display: flex;
+    margin: 0.6em;
+}
+
+#sideNav {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color: blue;
+    width: 18%;
+    padding: 1%;
+    padding-bottom: 1%;
+    margin-right: 8vw;
+}
+
+.sideNavBar {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 2%;
+    margin: 0.6em;
+    background: none;
+    border: none;
+}
+
+#servicePic {
+    width: 100%;
+    height: 50vh;
+    object-fit: fill;
+}
+
+#eventSideNav {
+    color: red;
+}
+
