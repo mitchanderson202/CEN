@@ -73,3 +73,23 @@ button3.addEventListener("click", function (event) {
 //     mainTable.innerHTML =``;
 // })
 
+
+// let homeNav = document.getElementById("homeNav");
+// let servicesNav = document.getElementById("servicesNav");
+// let eventsNav = document.getElementById("eventsNav");
+// let partnersNav = document.getElementById("partnersNav");
+// let affiliatesNav = document.getElementById("affiliatesNav");
+// let merchandiseNav = document.getElementById("merchandiseNav");
+// let contactNav = document.getElementById("contactNav");
+
+// homeNav.addEventListener("click", function(event) {
+//     event.preventDefault();
+//     homeNav.style.color = "red";
+//     servicesNav.style.color = "white";
+//     eventsNav.style.color = "white";
+//     partnersNav.style.color = "white";
+//     affiliatesNav.style.color = "white";
+//     merchandiseNav.style.color = "white";
+//     contactNav.style.color = "white";
+// })
+

@@ -73,6 +73,19 @@ table {
     box-sizing: border-box;
 }
 
+h6 {
+    margin: 0;
+    font-size: 1em;
+}
+
+ul {
+    padding-left: 12%;
+}
+
+li {
+    font-size: 1.2em;
+}
+
 
 tr {
     /* border: 1px solid black; */
