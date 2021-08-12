@@ -1,3 +1,7 @@
+// Nav Bar Change
+let eventPage = document.getElementById("homeNav");
+eventPage.style.color = "red";
+
 //Home Page
 
 let mainTable = document.getElementById("mainTable");
@@ -18,7 +22,7 @@ button2.addEventListener("click", function (event) {
     event.preventDefault();
     mainTable.innerHTML = `<table>
     <tr>
-       <th class="bcgChange" style="height:19vh;" colspan="4">Raffles for Charity</th>
+       <th class="bcgChange" colspan="4">Raffles for Charity</th>
     </tr>
     <tr>
         <td class="bcgChange">Easter Raffle</td>
@@ -32,7 +36,7 @@ button2.addEventListener("click", function (event) {
 
 </table>`;
     mainTable.style.cssText = `
-    font-size: 2em;
+    font-size: 1.4em;
     box-sizing: border-box;
 `;
 
@@ -47,17 +51,17 @@ button3.addEventListener("click", function (event) {
     event.preventDefault();
     mainTable.innerHTML = ` <table>
     <tr>
-        <th class="bcgChange" style="height:19vh;" colspan="3">Sport Tipping Competitions</th>
+        <th class="bcgChange" colspan="3">Sport Tipping Competitions</th>
     </tr>
     <tr>
-        <td class="bcgChange" style="height:29vh;">NBL<br>NBA</td>
+        <td class="bcgChange" >NBL<br>NBA</td>
         <td style="height:29vh;">NRL<br>AFL<br>Super Rugby</td>
         <td style="height:29vh;">A-League<br>EPL</td>
     </tr>
 </table>`;
 
     mainTable.style.cssText = `
-    font-size: 2em; 
+    font-size: 1.4em; 
     box-sizing: border-box;   
 `;
 
@@ -92,4 +96,7 @@ button3.addEventListener("click", function (event) {
 //     merchandiseNav.style.color = "white";
 //     contactNav.style.color = "white";
 // })
+
+// Services Page
+
 

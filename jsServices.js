@@ -1,10 +1,15 @@
+// Nav Bar Change
+let eventPage = document.getElementById("servicesNav");
+eventPage.style.color = "red";
+
 //Services Page
 let servicesMain = document.getElementById("servicesMain");
 
 let eventManagement = document.getElementById("eventSideNav");
 let memberManagement = document.getElementById("memberSideNav");
 let partnerManagement = document.getElementById("parSideNav");
-// let costManagement = document.getElementById("costSideNav");
+
+eventSideNav.style.color = "red";
 
 let servicesText = document.getElementById("servicesPara");
 
@@ -24,8 +29,8 @@ memberManagement.addEventListener("click", function(event) {
     event.preventDefault();
 
     image.src = "Pic2.png";
-    servicesText.innerHTML = `<div id="servicesPara">We offer member management services. A service designed to utilise a membership database and increase membership engagement by delivering consistent unique events and benefits to those members. <br>
-    A service that allows stakeholders to reap the rewards of having members and a membership database, but where they don't have to do the heavy lifting of managing those members.
+    servicesText.innerHTML = `<div id="servicesPara"><p>We offer member management services. A service designed to utilise a membership database and increase membership engagement by delivering consistent unique events and benefits to those members. </p>
+    <p>A service that allows stakeholders to reap the rewards of having members and a membership database, but where they don't have to do the heavy lifting of managing those members.</p>
     
     <h3>Our Event Management Services include:</h3>
         
@@ -41,6 +46,12 @@ memberManagement.addEventListener("click", function(event) {
         </div>
     `;
 
+    image.style.cssText = `
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    `;
+
     eventManagement.style.color = "white";
     memberManagement.style.color = "red";
     partnerManagement.style.color = "white";
@@ -54,8 +65,9 @@ partnerManagement.addEventListener("click", function(event) {
     servicesText.innerHTML = `
     <div id="servicesPara"> <h2>Grow and develop your business in a low-risk and economical way with the assistance of the Community Event Network.</h2>
 
-    We identify the kinds of services and activities you may require to grow your business and increase profits.<br>    
-    Our team of business concierge are 100% focused on helping you to grow your business and increase profits.
+    <p>We provide partner management services. We identify the kinds of services and activities you may require to grow your business and increase profits, then manage the process to achieve those benefits.</p>
+    <p>Our team of Business Solution Managers are 100% focused on helping you to grow your business and increase profits.</p>
+    <p>A service that provides our partners with the value of them coming onboard as part of the Community Event Network.</p>
     
     
     <h3>Our Event Management Services include:</h3>
@@ -69,7 +81,13 @@ partnerManagement.addEventListener("click", function(event) {
         <p>Our event management services are included when you become a Community Event Network partner.</p>
         <h4>Call Us! +61 000 000 000 together... stronger</h4>
         </div>
-    `
+    `;
+
+    image.style.cssText = `
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    `;
 
     eventManagement.style.color = "white";
     memberManagement.style.color = "white";

@@ -1,8 +1,12 @@
-/* body {
-    padding: 2%;
-} */
+body {
+    margin: 0.6em;
+}
 
-.indexContainer {
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .indexContainer {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
@@ -12,18 +16,20 @@
     "nav"
     "main"
     "section";
-}
+} */
 
 header {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding-left: 5%;
+    padding-left: 5vw;
+    height: 15vh;
+    /* margin-bottom: 1vh; */
     /* padding-right: 5%; */
- }
+}
 
  
-#loginTab {
+/* #loginTab {
     background-color: #5396CB;
     text-decoration: none;
     color: white;
@@ -31,11 +37,11 @@ header {
     padding: 0.8%;
     margin: 2%;
     margin-bottom: 0;
-}
+} */
 
 #logoImg {
-    width: 30%;
-    height: 30%;
+    /* width: 20%;
+    height: 20%; */
     object-fit: cover;
 }
 
@@ -44,8 +50,9 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #5396CB;
+    height: 5vh;
     padding: 0.6%;
-    margin: 0.6em;
+    /* margin: 0.6em; */
     margin-bottom: 3%;
     margin-top: 0;
 }
@@ -56,9 +63,6 @@ header {
     font-size: 1.3rem;
 }
 
-#homeNav {
-    color: red;
-}
 
 table {
     /* display: flex; */
@@ -79,13 +83,12 @@ h6 {
 }
 
 ul {
-    padding-left: 12%;
+    padding-left: 20%;
 }
 
 li {
     font-size: 1.2em;
 }
-
 
 tr {
     /* border: 1px solid black; */
@@ -95,20 +98,34 @@ tr {
 }
 
 th {
-    font-size: 1.8em;
+    font-size: 1.2em;
     /* border: 1px solid black; */
     margin: 0;    
     width: 25%;
-    height: 7.5vh;
+    /* height: 7.5vh; */
     background: beige;
+}
+
+.eventTH {
+    width: 16%;
+    background: pink;
+    height: 16%;
+    font-size: 1.2em;
 }
 
 td {
     /* border: 1px solid black; */
-    height: 16vh;
+    height: 14vh;
     font-size: 0.8em;
     padding: 0;
     background: beige;
+    width: 16%;
+}
+
+.eventTD {
+    height: 5vh;
+    font-size: 1em;
+    /* width: 12%; */
 }
 
 .bcgChange {
@@ -156,6 +173,10 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h3 {
+    margin: 0;
 }
 
 section h3 {
@@ -217,9 +238,8 @@ section h3 {
     width: 180px; 
 }
 
-#servicesMain {
+#main {
     display: flex;
-    margin: 0.6em;
 }
 
 #sideNav {
@@ -227,29 +247,30 @@ section h3 {
     flex-direction: column;
     align-self: flex-start;
     background-color: blue;
-    width: 18%;
+    /* width: 24%; */
     padding: 1%;
     padding-bottom: 1%;
-    margin-right: 8vw;
+    margin-right: 10vw;
 }
 
 .sideNavBar {
     color: white;
     font-size: 1.3em;
     text-decoration: none;
-    padding: 2%;
+    /* padding: 2%; */
     margin: 0.6em;
     background: none;
     border: none;
 }
 
+/* needs looking at */
 #servicePic {
     width: 100%;
     height: 50vh;
-    object-fit: fill;
+    object-fit: cover;
 }
 
-#eventSideNav {
-    color: red;
+#eventTables {
+    margin: 0;
 }
 
