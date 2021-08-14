@@ -1,6 +1,6 @@
 // Nav Bar Change
 let eventPage = document.getElementById("servicesNav");
-eventPage.style.color = "red";
+eventPage.style.color = "#E47852";
 
 //Services Page
 let servicesMain = document.getElementById("servicesMain");
@@ -9,7 +9,7 @@ let eventManagement = document.getElementById("eventSideNav");
 let memberManagement = document.getElementById("memberSideNav");
 let partnerManagement = document.getElementById("parSideNav");
 
-eventSideNav.style.color = "red";
+eventSideNav.style.color = "#E47852";
 
 let servicesText = document.getElementById("servicesPara");
 

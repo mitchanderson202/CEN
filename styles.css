@@ -1,5 +1,6 @@
 body {
     margin: 0.6em;
+    background: #EFEFEFFF;
 }
 
 html {
@@ -20,12 +21,13 @@ html {
 
 header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding-left: 5vw;
     height: 15vh;
     /* margin-bottom: 1vh; */
     /* padding-right: 5%; */
+    color: #373634;
 }
 
  
@@ -51,10 +53,13 @@ header {
     align-items: center;
     background-color: #5396CB;
     height: 5vh;
+    /* width: 80%;
+    margin-left: 8%; */
     padding: 0.6%;
     /* margin: 0.6em; */
     margin-bottom: 3%;
     margin-top: 0;
+    font-weight: bold;
 }
 
 .navItems {
@@ -128,10 +133,24 @@ td {
     /* width: 12%; */
 }
 
-.bcgChange {
-    background: pink;    
+#tableHead {
+    color: white;
+    font-size: 1.5em;
+    font-weight: normal;
 }
 
+.bcgChange {
+    background:#5396CB;    
+}
+
+.bcgChange1 {
+    background: #5396CB80;
+    font-weight: normal;
+}
+
+.bcgChange2 {
+    background: #5396CB27;
+}
 
 .indexBtns {
     display: flex;
@@ -140,29 +159,29 @@ td {
 }
 
 #slideOne { 
-    border: 3px solid darkblue;
-    background: red;
+    border: 3px solid #e478528a;
+    background: #e47852;
     border-radius: 50%;
     padding: 0.5% 0.5%;
 }
 
 #slideTwo { 
-    border: 3px solid darkblue;
-    background: lightblue;
+    border: 3px solid #e478528a;
+    background: #e478528a;
     border-radius: 50%;
     padding: 0.5% 0.5%;
 }
 
 #slideThree { 
-    border: 3px solid darkblue;
-    background: lightblue;
+    border: 3px solid #e478528a;
+    background: #e478528a;
     border-radius: 50%;
     padding: 0.5% 0.5%;
 }
 
 #slideFour { 
-    border: 3px solid darkblue;
-    background: lightblue;
+    border: 3px solid #e478528a;
+    background: #e478528a;
     border-radius: 50%;
     padding: 0.5% 0.5%;
 }
@@ -182,60 +201,59 @@ h3 {
 section h3 {
     text-align: center;
     font-size: 2em;
+    color: #373634;
 }
 
-.btnWrap {
-    display: grid;
-    justify-content: space-around;    
-    height: 6vh;
-    width: 80%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "button button"
-    "button button";
+.btnWrap {    
+    display: flex; 
+    justify-content: space-around;  
+    align-items: center;  
     gap: 10%;
 }
 
 #comBtn {
-    background-color: lightblue;   
-    margin: 0 auto;
-    border: 2px solid blue;
-    font-weight: 600;
+    background-color: #5396CB;   
+    /* margin: 0 auto; */
+    border: 3px solid #5396CB;
+    font-weight: normal;
     font-size: 1.2rem;  
     height: 140px;
     width: 180px; ;  
-    margin-bottom: 60px;
+    color: white;
+    /* margin-bottom: 60px; */
 }
 
 #venBtn {
-    background-color: lightblue;   
-    margin: 0 auto;
-    border: 2px solid blue;
-    font-weight: 600;
-    font-size: 1.2rem; 
-    height: 140px;
-    width: 180px;      
-}
-
-#sspBtn {
-    background-color: lightblue;   
-    margin: 0 auto;
-    border: 2px solid blue;
-    font-weight: 600;
+    background-color: #5396CB;   
+    /* margin: 0 auto; */
+    border: 3px solid #5396CB;
+    font-weight: normal;
     font-size: 1.2rem; 
     height: 140px;
     width: 180px;  
+    color: white;    
+}
+
+#sspBtn {
+    background-color: #5396CB;   
+    /* margin: 0 auto; */
+    border: 3px solid #5396CB;
+    font-weight: normal;
+    font-size: 1.2rem; 
+    height: 140px;
+    width: 180px;  
+    color: white;
 }
 
 #invBtn {
-    background-color: lightblue;   
-    margin: 0 auto;
-    border: 2px solid blue;
-    font-weight: 600;
+    background-color: #5396CB;   
+    /* margin: 0 auto; */
+    border: 3px solid #5396CB;
+    font-weight: normal;
     font-size: 1.2rem; 
     height: 140px;
     width: 180px; 
+    color: white;
 }
 
 #main {
@@ -246,8 +264,7 @@ section h3 {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    background-color: blue;
-    /* width: 24%; */
+    background-color: #5396CB;
     padding: 1%;
     padding-bottom: 1%;
     margin-right: 10vw;
@@ -255,6 +272,7 @@ section h3 {
 
 .sideNavBar {
     color: white;
+    font-weight: bold;
     font-size: 1.3em;
     text-decoration: none;
     /* padding: 2%; */
@@ -272,5 +290,11 @@ section h3 {
 
 #eventTables {
     margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 0.8em;
+    }
 }
 

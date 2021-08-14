@@ -1,6 +1,6 @@
 // Nav Bar Change
 let eventPage = document.getElementById("homeNav");
-eventPage.style.color = "red";
+eventPage.style.color = "#EBC45A";
 
 //Home Page
 
