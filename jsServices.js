@@ -1,6 +1,6 @@
 // Nav Bar Change
 let eventPage = document.getElementById("servicesNav");
-eventPage.style.color = "#E47852";
+eventPage.style.color = "#EBC45A";
 
 //Services Page
 let servicesMain = document.getElementById("servicesMain");
@@ -53,7 +53,7 @@ memberManagement.addEventListener("click", function(event) {
     `;
 
     eventManagement.style.color = "white";
-    memberManagement.style.color = "red";
+    memberManagement.style.color = "#E47852";
     partnerManagement.style.color = "white";
     // costManagement.style.color = "white";
 })
@@ -91,7 +91,7 @@ partnerManagement.addEventListener("click", function(event) {
 
     eventManagement.style.color = "white";
     memberManagement.style.color = "white";
-    partnerManagement.style.color = "red";
+    partnerManagement.style.color = "#E47852";
     // costManagement.style.color = "white";
 })
 

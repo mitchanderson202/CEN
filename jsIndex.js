@@ -7,6 +7,7 @@ eventPage.style.color = "#EBC45A";
 let mainTable = document.getElementById("mainTable");
 let td = document.querySelector("td");
 
+
 let button1 = document.getElementById("slideOne");
 let button2 = document.getElementById("slideTwo");
 let button3 = document.getElementById("slideThree");
@@ -25,7 +26,7 @@ button2.addEventListener("click", function (event) {
        <th class="bcgChange" colspan="4">Raffles for Charity</th>
     </tr>
     <tr>
-        <td class="bcgChange">Easter Raffle</td>
+        <td>Easter Raffle</td>
 
         <td>Mothers Day Raffle</td>
     
@@ -40,10 +41,11 @@ button2.addEventListener("click", function (event) {
     box-sizing: border-box;
 `;
 
-    button1.style.backgroundColor = "lightblue";
-    button2.style.backgroundColor = "red";
-    button3.style.backgroundColor = "lightblue";
-    button4.style.backgroundColor = "lightblue";
+
+    button1.style.backgroundColor = "#e478528a";
+    button2.style.backgroundColor = "#e47852";
+    button3.style.backgroundColor = "#e478528a";
+    button4.style.backgroundColor = "#e478528a";
 
 })
 
@@ -54,7 +56,7 @@ button3.addEventListener("click", function (event) {
         <th class="bcgChange" colspan="3">Sport Tipping Competitions</th>
     </tr>
     <tr>
-        <td class="bcgChange" >NBL<br>NBA</td>
+        <td>NBL<br>NBA</td>
         <td style="height:29vh;">NRL<br>AFL<br>Super Rugby</td>
         <td style="height:29vh;">A-League<br>EPL</td>
     </tr>
@@ -62,41 +64,16 @@ button3.addEventListener("click", function (event) {
 
     mainTable.style.cssText = `
     font-size: 1.4em; 
-    box-sizing: border-box;   
+    box-sizing: border-box;
 `;
 
 
-    button1.style.backgroundColor = "lightblue";
-    button2.style.backgroundColor = "lightblue";
-    button3.style.backgroundColor = "red";
-    button4.style.backgroundColor = "lightblue";
+    button1.style.backgroundColor = "#e478528a";
+    button2.style.backgroundColor = "#e478528a";
+    button3.style.backgroundColor = "#e47852";
+    button4.style.backgroundColor = "#e478528a";
 })
 
-// button4.addEventListener("click", function (event) {
-//     event.preventDefault();
-//     mainTable.innerHTML =``;
-// })
 
-
-// let homeNav = document.getElementById("homeNav");
-// let servicesNav = document.getElementById("servicesNav");
-// let eventsNav = document.getElementById("eventsNav");
-// let partnersNav = document.getElementById("partnersNav");
-// let affiliatesNav = document.getElementById("affiliatesNav");
-// let merchandiseNav = document.getElementById("merchandiseNav");
-// let contactNav = document.getElementById("contactNav");
-
-// homeNav.addEventListener("click", function(event) {
-//     event.preventDefault();
-//     homeNav.style.color = "red";
-//     servicesNav.style.color = "white";
-//     eventsNav.style.color = "white";
-//     partnersNav.style.color = "white";
-//     affiliatesNav.style.color = "white";
-//     merchandiseNav.style.color = "white";
-//     contactNav.style.color = "white";
-// })
-
-// Services Page
 
 

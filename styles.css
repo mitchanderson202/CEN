@@ -108,12 +108,14 @@ th {
     margin: 0;    
     width: 25%;
     /* height: 7.5vh; */
-    background: beige;
+    background: #5396CB;
+    color: white;
+    font-weight: normal;
 }
 
 .eventTH {
     width: 16%;
-    background: pink;
+    background: #5396CB80;
     height: 16%;
     font-size: 1.2em;
 }
@@ -123,13 +125,14 @@ td {
     height: 14vh;
     font-size: 0.8em;
     padding: 0;
-    background: beige;
+    background: #5396CB80;
     width: 16%;
 }
 
 .eventTD {
     height: 5vh;
     font-size: 1em;
+    background: #5396CB27;
     /* width: 12%; */
 }
 
@@ -146,6 +149,7 @@ td {
 .bcgChange1 {
     background: #5396CB80;
     font-weight: normal;
+    color: black;
 }
 
 .bcgChange2 {
@@ -173,13 +177,6 @@ td {
 }
 
 #slideThree { 
-    border: 3px solid #e478528a;
-    background: #e478528a;
-    border-radius: 50%;
-    padding: 0.5% 0.5%;
-}
-
-#slideFour { 
     border: 3px solid #e478528a;
     background: #e478528a;
     border-radius: 50%;
