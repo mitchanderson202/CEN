@@ -1,7 +1,9 @@
-body {
-    margin: 0.6em;
+body {    
+    margin: auto auto;
     background: #EFEFEFFF;
+    width: 90vw;    
 }
+
 
 html {
     font-family: 'Roboto', sans-serif;
@@ -10,13 +12,13 @@ html {
 /* .indexContainer {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1.2fr 0.8fr 3fr 2fr;
     grid-template-areas: 
-    "header"
-    "nav"
-    "main"
-    "section";
+    "header header header header"
+    "topNav topNav topNav topNav"
+    "mainTable   mainTable mainTable mainTable"
+    "section section section section";
 } */
 
 header {
@@ -27,7 +29,7 @@ header {
     height: 15vh;
     /* margin-bottom: 1vh; */
     /* padding-right: 5%; */
-    color: #373634;
+    color: #373634;   
 }
 
  
@@ -72,7 +74,7 @@ header {
 table {
     /* display: flex; */
     /* border: 1px solid black; */
-    width: 80%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 3%;
@@ -254,7 +256,9 @@ section h3 {
 }
 
 #main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 15% 80%;
+    grid-gap: 5%;
 }
 
 #sideNav {
@@ -264,7 +268,8 @@ section h3 {
     background-color: #5396CB;
     padding: 1%;
     padding-bottom: 1%;
-    margin-right: 10vw;
+    text-align: center;
+    height: 25vh;
 }
 
 .sideNavBar {
@@ -289,7 +294,7 @@ section h3 {
     margin: 0;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     html {
         font-size: 0.8em;
     }
