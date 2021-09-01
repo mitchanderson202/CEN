@@ -294,6 +294,60 @@ section h3 {
     margin: 0;
 }
 
+.stcSports {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #373634;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    box-sizing: border-box;
+}
+
+#stcSportsBB {    
+    color: #5396CB;
+    border-right: none;
+    border-bottom: none;
+}
+
+#stcSportsSoc {
+    color: #ebc95a;
+    border-bottom: none;
+}
+
+#stcSportsRug {
+    color: #87ba41;
+    border-right: none;
+}
+
+#stcSportsInt {
+    color: #e47852;
+}
+
+#stcSportsBB:hover {
+    background: #5396CB;
+    color: black;
+}
+
+#stcSportsSoc:hover {
+    background: #ebc95a;
+    color: black;
+}
+
+#stcSportsRug:hover {
+    background: #87ba41;
+    color: black;
+}
+
+#stcSportsInt:hover {
+    background: #e47852;
+    color: black;
+}
+
+
 @media only screen and (max-width: 1200px) {
     html {
         font-size: 0.8em;

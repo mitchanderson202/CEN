@@ -23,7 +23,20 @@ ppl.addEventListener("click", function(event) {
 stc.addEventListener("click", function(event) {
     event.preventDefault();
 
-    eventMain.innerHTML = "hello";
+    eventMain.innerHTML = `
+    <a href="#" class="stcSports" id="stcSportsBB">NBA & NBL<br> $20 Rego <br> $100K Prize Pool</a>
+    <a href="#" class="stcSports" id="stcSportsSoc">EPL & A-League <br> $20 Rego <br> $100K Prize Pool</a>
+    <a href="#" class="stcSports" id="stcSportsRug">NRL & RU & AFL <br> $20 Rego <br> $100K Prize Pool</a>
+    <a href="#" class="stcSports" id="stcSportsInt">NFL & IPL & EuroLeague <br> $20 Rego <br> $100K Prize Pool</a>
+    `;
+  
+    eventMain.style.cssText = `
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 50% 50%;  
+    grid-template-rows: 50% 50%;
+    height: 50vh;
+    `;
 
 
     stc.style.color = "#E47852";
