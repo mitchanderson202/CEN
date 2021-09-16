@@ -1,7 +1,8 @@
 body {    
     margin: auto auto;
     background: #EFEFEFFF;
-    width: 90vw;    
+    width: 25cm;   
+    overflow-y: scroll; 
 }
 
 
@@ -9,23 +10,11 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-/* .indexContainer {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1.2fr 0.8fr 3fr 2fr;
-    grid-template-areas: 
-    "header header header header"
-    "topNav topNav topNav topNav"
-    "mainTable   mainTable mainTable mainTable"
-    "section section section section";
-} */
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 5vw;
+    /* padding-left: 5vw; */
     height: 15vh;
     /* margin-bottom: 1vh; */
     /* padding-right: 5%; */
@@ -67,7 +56,7 @@ header {
 .navItems {
     text-decoration: none;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 
@@ -94,7 +83,7 @@ ul {
 }
 
 li {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 tr {
@@ -169,6 +158,7 @@ td {
     background: #e47852;
     border-radius: 50%;
     padding: 0.5% 0.5%;
+    margin: 0.1em;
 }
 
 #slideTwo { 
@@ -176,6 +166,7 @@ td {
     background: #e478528a;
     border-radius: 50%;
     padding: 0.5% 0.5%;
+    margin: 0.1em;
 }
 
 #slideThree { 
@@ -183,6 +174,7 @@ td {
     background: #e478528a;
     border-radius: 50%;
     padding: 0.5% 0.5%;
+    margin: 0.1em;
 }
 
 
@@ -257,11 +249,11 @@ section h3 {
 
 #main {
     display: grid;
-    grid-template-columns: 15% 80%;
+    grid-template-columns: 17% 78%;
     grid-gap: 5%;
 }
 
-#sideNav {
+.sideNav {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
@@ -269,16 +261,19 @@ section h3 {
     padding: 1%;
     padding-bottom: 1%;
     text-align: center;
-    height: 25vh;
+    /* height: 25vh; */
+    padding-bottom: 2vh;
 }
+
 
 .sideNavBar {
     color: white;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-decoration: none;
     /* padding: 2%; */
-    margin: 0.6em;
+    margin-top: 0.6em;
+    margin-bottom: 1vh;    
     background: none;
     border: none;
 }
@@ -286,7 +281,7 @@ section h3 {
 /* needs looking at */
 #servicePic {
     width: 100%;
-    height: 50vh;
+    height: 35vh;
     object-fit: cover;
 }
 
@@ -329,7 +324,7 @@ section h3 {
 
 #stcSportsBB:hover {
     background: #5396CB;
-    color: black;
+    color: black;    
 }
 
 #stcSportsSoc:hover {
@@ -347,10 +342,41 @@ section h3 {
     color: black;
 }
 
+h5 {
+    margin: 0;
+    font-size: 1.2em;
+}
 
-@media only screen and (max-width: 1200px) {
-    html {
-        font-size: 0.8em;
+.h5Start {
+    text-align: start;
+}
+
+.h5End {
+    text-align: end;
+}
+
+.extraP {
+    grid-row-start: 5;
+    grid-column: 1/3;
+}
+
+
+@media only screen and (max-height: 780px) {
+    #logoImg {
+        height: 90%;
     }
 }
+
+
+@media only screen and (max-width: 25cm) {
+    body {
+        width: 100vmax;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    html {
+        font-size: 0.4em;
+    }
+} */
 

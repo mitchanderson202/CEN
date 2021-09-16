@@ -48,7 +48,7 @@ memberManagement.addEventListener("click", function(event) {
 
     image.style.cssText = `
     width: 100%;
-    height: 50vh;
+    height: 35vh;
     object-fit: cover;
     `;
 
@@ -85,7 +85,7 @@ partnerManagement.addEventListener("click", function(event) {
 
     image.style.cssText = `
     width: 100%;
-    height: 50vh;
+    height: 35vh;
     object-fit: cover;
     `;
 
