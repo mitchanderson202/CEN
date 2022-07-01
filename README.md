@@ -7,4 +7,3 @@ This is my first read world Solo Project and we we're both happy with how it tur
 June 2021
 
 Mitch
-# CEN
