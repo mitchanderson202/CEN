@@ -18,11 +18,6 @@ let image = document.getElementById("servicePic");
 eventManagement.addEventListener("click", function (event) {
     event.preventDefault();
     location.reload(servicesMain);
-
-    // eventManagement.style.color = "red";
-    // memberManagement.style.color = "white";
-    // employeeRetention.style.color = "white";
-    // costManagement.style.color = "white";
 })
 
 memberManagement.addEventListener("click", function(event) {
@@ -55,7 +50,6 @@ memberManagement.addEventListener("click", function(event) {
     eventManagement.style.color = "white";
     memberManagement.style.color = "#E47852";
     partnerManagement.style.color = "white";
-    // costManagement.style.color = "white";
 })
 
 partnerManagement.addEventListener("click", function(event) {
@@ -92,15 +86,6 @@ partnerManagement.addEventListener("click", function(event) {
     eventManagement.style.color = "white";
     memberManagement.style.color = "white";
     partnerManagement.style.color = "#E47852";
-    // costManagement.style.color = "white";
 })
 
-// costManagement.addEventListener("click", function(event) {
-//     event.preventDefault();
-
-//     eventManagement.style.color = "white";
-//     memberManagement.style.color = "white";
-//     partnerManagement.style.color = "white";
-//     costManagement.style.color = "red";
-// })
 
